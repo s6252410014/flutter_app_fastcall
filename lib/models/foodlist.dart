@@ -4,6 +4,7 @@ class FoodList {
   String facebook = '';
   String mobile = '';
   String image = '';
+  String pikat = '';
 
   FoodList({
     required this.name,
@@ -11,5 +12,6 @@ class FoodList {
     required this.facebook,
     required this.mobile,
     required this.image,
+    required this.pikat,
   });
 }
